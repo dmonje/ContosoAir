@@ -1,5 +1,7 @@
 pool:
   name: 'Default'
+  demands:
+  - agent.name -equals Default
 trigger:
   - master
 steps:
