@@ -1,7 +1,7 @@
 pool:
-  name: 'Default'
+  name: 'Local'
   demands:
-  - agent.name -equals Default
+  - agent.name -equals Local
 trigger:
   - master
 steps:
