@@ -1,5 +1,6 @@
 pool:
   name: 'Local'
+  demands: npm, Agent.Version -gtVersion 2.182.1
 trigger:
   - master
 steps:
